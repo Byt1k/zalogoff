@@ -1,0 +1,1736 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  line-height: 1.4em;
+  font-size: 18px;
+  color: #000;
+}
+
+b {
+	font-weight: 500;
+}
+
+a, a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+body, h1, h2, h3, h4, p, span, img, a, menu, s{
+  padding: 0;
+  margin: 0;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+
+h1 {
+
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: 500;
+
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 500;
+	color: #2B2C32;
+	text-align: center;
+}
+
+h4 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.container {
+	position: relative;
+}
+
+.gray {
+	color: #8c8c8c;
+}
+
+.fas {
+	color: #FE8800;
+	width: 20px;
+	text-align: center;
+}
+
+.header, .header-aticles {
+	padding: 30px 0;
+	background: #fff;
+	box-shadow: 0px 0px 17px rgba(238, 238, 238, 0.67);
+}
+
+.logo img {
+	width: 190%;
+	transition: all 0.3s ease;
+}
+
+.logo img:hover {
+	transform: scale(0.93);
+}
+
+.header__menu {
+	float: right;
+}
+
+.header__menu li {
+	margin-left: 40px;
+}
+
+.header li a, .header-aticles__dropdown button {
+	font-size: 16px;
+	color: #000;
+	transition: all 0.2s ease;
+	background: none;
+	border: none;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+
+.header li a:hover {
+	color: #FE8800;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+.mobile-menu {
+	display: none;
+}
+
+.mobile-menu-header {
+	padding: 21px 0;
+	box-shadow: 0px 0px 17px rgba(238, 238, 238, 0.67);
+}
+
+.mobile-menu .logo {
+	width: 140px;
+}
+
+.mobile_menu img {
+	width: 30px;
+}
+
+
+.mobile_menu_overlay, .mobile_menu_container{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.mobile_menu_container, .mobile_menu_container ul li ul{
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	transition: all 200ms;
+}
+.mobile_menu_overlay{
+	display: none;
+	cursor: pointer;
+	z-index: 10200;
+	background: rgba(0, 0, 0, 0.5);
+}
+.mobile_menu_container{
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	width: 300px;
+	overflow: hidden;
+	z-index: 10201;
+	background: #fff;
+}
+.mobile_menu_container.loaded{
+   	-webkit-transform: translateX(0px);
+   	transform: translateX(0px);
+}
+.mobile_menu_container .mobile_menu_content{
+	overflow: auto;
+	max-height: 100%;
+	padding: 30px;
+}
+.mobile_menu_container ul{
+	margin: 0;
+	padding: 0;
+}
+.mobile_menu_container ul li{
+	list-style: none;
+}
+.mobile_menu_container ul li a{
+	display: block;
+	padding: 15px 20px;
+	line-height: 20px;
+	font-size: 16px;
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+.page-nav {
+	font-size: 16px;
+	padding-top: 30px;
+	margin-bottom: 65px;
+}
+
+.btn {
+	display: block;
+	height: 50px;
+	border-radius: 3px;
+	line-height: 36px;
+	transition: all 0.3s ease;
+}
+
+.btn1-1 {
+	width: 200px;
+	border: 1px solid #FE8800;
+	background: #fff;
+	color: #FE8800;
+	font-weight: 400;
+}
+
+.btn1-1:hover {
+	color: #fff;
+	background: #FE8800;
+}
+
+.btn2-1 {
+	width: 200px;
+	border: 1px solid #3285CA;
+	color: #3285CA;
+	font-weight: 400;
+}
+
+.btn2-1:hover {
+	color: #fff;
+	background: #3285CA;
+}
+
+.btn2 {
+	width: 230px;
+	background: #3285CA;
+	color: #fff;
+	font-weight: 400;
+}
+
+.btn2:hover {
+	color: #fff;
+	background: #2477bc;
+}
+
+.footer	{
+	font-size: 16px;
+	padding: 61px 0;
+}
+
+.footer b {
+	font-weight: 400;
+	display: block;
+}
+
+
+
+/* Страница ломбарда */
+
+.pawnshop {
+	background: url(../img/page-lombard.jpg) no-repeat center top / cover;
+}
+
+.pawnshop__logo img {
+	max-height: 60px;
+}
+
+.pawnshop__info {
+	margin-top: 40px;
+	background: #fff;
+	box-shadow: 3px 3px 24px rgba(233, 233, 233, 0.58);
+	border-radius: 3px;
+	padding: 35px 50px;
+	margin-bottom: 100px;
+}
+
+.pawnshop__block {
+	width: 31%;
+	font-size: 16px;
+}
+
+.pawnshop__block p {
+	margin-top: 15px;
+}
+
+.pawnshop__block a, .pawnshop__block span {
+	font-weight: 500;
+	margin-top: -5px;
+	display: block;
+}
+
+.branches__title {
+	font-size: 30px;
+	color: #2B2C32;
+}
+
+.branches__title img {
+	max-height: 21px;
+}
+
+.branches__title span {
+	color: #FE8800;
+}
+
+.branches iframe {
+	margin-top: 60px;
+	margin-bottom: 115px;
+	margin-left: auto;
+}
+
+.branches__block {
+	position: absolute;
+	left: 0;
+	top: 70px;
+	width: 473px;
+	height: 399px;
+	background: #FFFFFF;
+	box-shadow: 3px 3px 17px rgba(233, 233, 233, 0.67);
+	border-radius: 3px;
+	padding: 0 30px 30px 30px;
+}
+
+.branches .dropdown-toggle {
+	font-size: 25px;
+	font-weight: 500;
+	border-bottom: 1px solid #CCE4F8;
+	display: block;
+	padding: 30px 0;
+}
+
+.branches .dropdown-toggle::after {
+	float: right;
+    margin-top: 14px;
+	color: #3893DF;
+}
+
+.branches__slider img {
+	max-height: 195px;
+}
+
+.branches__slider .owl-stage-outer {
+	width: 93%;
+	margin: 0 auto;
+}
+
+.branches__slider .owl-nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	top: 75px;
+}
+
+.branches__slider .owl-nav button:focus {
+	outline: none;
+}
+
+.branches__slider .owl-nav .owl-prev:hover, .branches__slider .owl-nav .owl-next:hover {
+	background: none;
+}
+
+.reviews {
+	padding: 100px 0;
+}
+
+.reviews__total {
+	position: absolute;
+	top: 80px;
+	right: 0;
+	background: #FFFFFF;
+	box-shadow: 3px 3px 17px rgba(233, 233, 233, 0.67);
+	border-radius: 3px;
+	width: 445px;
+	height: 350px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 35px;
+}
+
+.reviews__total b {
+	display: block;
+	margin-top: 23px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.reviews__total b span {
+	font-size: 43px;
+}
+
+.reviews__block {
+	width: 660px;
+	height: 280px;
+	background: #FFFFFF;
+	box-shadow: 3px 3px 17px rgba(233, 233, 233, 0.67);
+	border-radius: 3px;
+	margin-top: 18px;
+	padding: 38px;
+}
+
+.reviews__block_first {
+	margin-top: 45px;
+}
+
+.reviews__assessment {
+	width: 43px;
+	height: 43px;
+	background: #fff;
+	border: 4px solid #3285CA;
+	border-radius: 50%;
+	font-size: 14px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.reviews__author p {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.reviews__author span {
+	display: block;
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+.reviews__date  {
+	margin-left: auto;;
+}
+
+
+.reviews__block {
+	font-size: 14px;
+}
+
+.reviews__btn {
+	color: #3285CA;
+	text-decoration: underline;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 10px;
+	display: block;
+}
+
+.reviews__btn:hover {
+	color: #3285CA;
+	text-decoration: underline;
+}
+
+.reviews__add {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	box-shadow: 2px 4px 16px rgba(233, 233, 233, 0.7);
+	margin-top: 30px;
+	margin-left: 310px;
+}
+
+
+
+
+
+/* Страница списка ломбарда */
+
+.lombards {
+	background: url(../images/bg-lombards.jpg) no-repeat center top / cover;
+	font-size: 16px;
+	padding-bottom: 110px;
+}
+
+.lombards h3 {
+	text-align: left !important;
+}
+
+.lombards__text {
+	width: 75%;
+}
+
+.lombards__block {
+	width: 370px;
+	height: 250px;
+	background: #FFFFFF;
+	box-shadow: 3px 3px 24px rgba(227, 237, 243, 0.72);
+	border-radius: 3px;
+	padding: 25px;
+}
+
+.lombards__block span {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.list-lombards {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.list-lombards__search {
+	background: #FFFFFF;
+	box-shadow: 3px 3px 24px rgba(233, 233, 233, 0.58);
+	border-radius: 3px;
+	width: 100%;
+	padding: 10px 25px;
+	margin-top: 30px;
+}
+
+.list-lombards__search_input {
+	height: 40px;
+	font-size: 14px;
+	width: 230px;
+	font-weight: 300;
+}
+
+.list-lombards__search input, .list-lombards__search input:focus {
+	border: none;
+	outline: none;
+}
+
+.list-lombards .dropdown-toggle {
+	border-left: 1px solid #EBEBEB;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+.list-lombards .dropdown-toggle:focus {
+	outline: none;
+}
+
+.list-lombards .dropdown:after {
+	color: #3285CA;
+}
+
+.list-lombards .dropdown-item {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.list-lombards button {
+	border-radius: 3px;
+}
+
+.list-lombards button .fas {
+	color: #fff;
+}
+
+.list-lombards__filters a {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 5px;
+	font-size: 12px;
+	padding: 3px 7px;
+	background: rgba(222, 237, 255, 0.27);
+	border-radius: 3px;
+	color: #494949;
+}
+
+.list-lombards__filters .fas {
+	font-size: 9px;
+}
+
+.list-lombards__btn-map {
+	font-size: 14px;
+	color: #FE8800;
+	text-decoration: underline;
+	font-weight: 500;
+	display: block;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: 63px;
+}
+
+.list-lombards__btn-map:hover {
+	color: #FE8800;
+	text-decoration: underline;
+}
+
+.list-lombards__list {
+	background: #FFFFFF;
+	box-shadow: 3px 3px 24px rgba(233, 233, 233, 0.58);
+	border-radius: 3px;
+	padding: 0 20px;
+	width: 100%;
+}
+
+.list-lombards__row {
+	padding: 20px 0;
+	font-size: 14px;
+	border-bottom: 1px solid rgba(228, 237, 244, 0.42);
+}
+
+.list-lombards__row span {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 17px;
+	display: block;
+}
+
+.list-lombards__name {
+	width: 20%;
+}
+
+.list-lombards__rate {
+	width: 13%;
+}
+
+.list-lombards__sum {
+	width: 21%;
+}
+
+.list-lombards__views {
+	width: 28%;
+	margin-right: 100px;
+}
+
+.list-lombards__name img {
+	max-width: 130px;
+	max-height: 50px;
+}
+
+.list-lombards__btn a {
+	color: #3285CA;
+	text-decoration: underline;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 10px;
+	display: block;
+}
+
+.list-lombards__btn a:hover {
+	color: #3285CA;
+	text-decoration: underline;
+}
+
+.reviews-lombards {
+	padding: 100px 0 150px 0;
+}
+
+.reviews-lombards__slider .item {
+	background: #FFFFFF;
+	box-shadow: 3px 3px 17px rgba(233, 233, 233, 0.67);
+	border-radius: 3px;
+	padding: 25px;
+	font-size: 14px;
+}
+
+.reviews-lombards__name p {
+
+	font-weight: 500;
+}
+
+.reviews-lombards__name span {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.reviews-lombards__slider .owl-stage-outer {
+	height: 230px;
+	margin-top: 55px;
+}
+
+.reviews-lombards__slider .item img {
+	max-width: 130px;
+	height: auto;
+	margin-left: auto;
+}
+
+.reviews-lombards__btn {
+	color: #3285CA;
+	text-decoration: underline;
+	font-weight: 500;
+	font-size: 14px;
+	margin-top: 20px;
+	display: block;
+}
+
+.reviews-lombards__btn:hover {
+	color: #3285CA;
+	text-decoration: underline;
+}
+
+.reviews-lombards__slider .owl-nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 105%;
+	left: 	-2.5%;
+	margin: 0 auto;	
+	top: 130px;
+}
+
+.reviews-lombards__slider .owl-nav button:focus {
+	outline: none;
+}
+
+.reviews-lombards__slider .owl-nav .owl-prev:hover, .reviews-lombards__slider .owl-nav .owl-next:hover {
+	background: none;
+}
+
+
+
+/* Страница "Контакты" */
+
+
+.contact {
+	background: url(../images/bg-contact.jpg) no-repeat center top / cover;
+	padding-bottom: 190px;
+}
+
+.contact .page-nav {
+	margin-bottom: 40px;
+}
+
+.contact__block	{
+	background: #FFFFFF;
+	box-shadow: 3px 3px 17px rgba(233, 233, 233, 0.67);
+	border-radius: 3px;
+	padding: 40px 25px;
+	width: 40%;
+}
+
+.contact__block_line {
+	width: 100%;
+	height: 1px;
+	background: #CCE4F8;
+	margin-top: 25px;
+}
+
+.contact__block_icon {
+	display: block;
+	width: 21px;
+	height: 21px;
+	background: #FE8800;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 21px;
+	border-radius: 50%;
+	transition: all .3s ease;
+}
+
+.contact__block_icon:hover {
+	color: #fff;
+	border: 1px solid #FE8800;
+	color: #FE8800;
+	background: none;
+}
+
+.contact iframe {
+	width: 60% !important;
+}
+
+.free-consultation__secondary-title {
+	font-size: 16px;
+	width: 82%;
+	margin: 0 auto;
+	margin-top: 19px;
+	margin-bottom: 18px;
+}
+
+.free-consultation__form {
+	width: 66%;
+	padding: 40px 70px;
+	background: #FFFFFF;
+	box-shadow: 3px 3px 17px rgba(233, 233, 233, 0.67);
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.free-consultation__form input {
+	font-size: 16px;
+	font-weight: 300;
+	height: 50px;
+	padding: 0 20px;
+	border: 1px solid #CACACA;
+	border-radius: 2px;
+	width: 60%;
+	margin-right: 10px;
+}
+
+.free-consultation__form input:focus {
+	outline: none;
+}
+
+.free-consultation__form button.btn2 {
+	border-radius: 3px;
+	font-size: 16px;
+	height: 50px;
+}
+
+.free-consultation p.gray {
+	font-size: 16px;
+	width: 57%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 110px;
+}
+
+/* Страница "Статьи" */
+
+.header-aticles__dropdown .dropdown-toggle:focus {
+	outline: none;
+}
+
+.header-aticles__dropdown .dropdown-menu {
+	background: #FFFFFF;
+	box-shadow: 3px 3px 24px rgba(233, 233, 233, 0.58);
+	border-radius: 3px;
+	border: none;
+}
+
+.header-aticles a {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.header-aticles .logo img {
+	width: 135px;
+}
+
+.header-aticles__search {
+	text-align: right;
+}
+
+.header-aticles__search input {
+	width: 270px;
+	height: 32px;
+	border: 1px solid #D7D7D7;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 0 15px;
+}
+
+.header-aticles__search input:focus {
+	outline: none;
+}
+
+.header-aticles__search .fas {
+	font-size: 14px;
+	color: #D7D7D7;
+	justify-content: space-between;
+}
+
+.header-aticles__search button {
+	margin-left: -43px;
+}
+
+.page-articles-title a {
+	font-size: 16px;
+	display: block;
+	color: #3285CA;
+	text-decoration: underline;
+}
+
+.page-articles-title a:hover {
+
+}
+
+.news__photo {
+	width: 100%;
+	height: 320px;
+	border-radius: 3px;
+}
+
+.news__item {
+	height: 65px;
+	margin-bottom: 21px;
+}
+
+.news__item_img {
+	min-width: 75px;
+	max-width: 75px;
+	height: 65px;
+}
+
+.news__item_img {
+	border-radius: 3px;
+}
+
+.news__item p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 0;
+	margin-top: 14px;
+}
+
+.news span.gray, .articles span.gray {
+	font-size: 12px;
+}
+
+.news__main-title {
+	font-size: 33px;
+	font-weight: 500;
+	margin: 10px 0;
+	display: block;
+}
+
+.articles__item {
+	height: 260px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.articles__item img {
+	max-height: 170px;
+}
+
+.articles__item-gray {
+	background: #F9F9F9;
+	padding: 25px 20px;
+}
+
+.articles__item-gray_photo {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+.articles__item-gray_name {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.articles__item-gray span.gray {
+	position: absolute;
+	left: 20px;
+	bottom: 25px;
+	line-height: 0;
+}
+
+.articles__item_text {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.important-quet__img {
+	width: 100%;
+	height: 408px;
+	border-radius: 3px;
+}
+
+.footer-articles {
+	border-top: 1px solid #DEDEDE;
+	padding-bottom: 50px;
+	margin-top: 50px;
+}
+
+/* Страница "О нас" */
+
+#page-about {
+	font-size: 16px;
+}
+
+.about {
+	background: url(../images/bg-about.jpg) no-repeat center top / cover;
+	padding-bottom: 150px;
+}
+
+.about .page-nav {
+	margin-bottom: 40px;
+}
+
+.about p {
+	width: 93%;
+}
+
+.about-add {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.about-add__title img {
+	margin-top: -5px;
+}
+
+.about-add__title p {
+	font-size: 38px;
+	color: #3285CA;
+	font-weight: 400;
+	display: inline-block;
+	margin-left: -54px;
+}
+
+.about-add__text {
+	padding-left: 28px;
+	margin-top: -10px;
+}
+
+.about-add__desc {
+	background: #FFFFFF;
+	box-shadow: 3px 3px 17px rgba(233, 233, 233, 0.67);
+	border-radius: 3px;
+	width: 730px;
+	position: relative;
+}
+
+.about-add__desc {
+	background: url(../images/bg-about-desc.jpg) no-repeat center bottom / cover;
+	padding: 28px 100px 75px;
+	margin: 0 auto;
+}
+
+.about-add__desc p {
+	font-size: 18px;
+}
+
+.about-add__desc img  {
+	position: absolute;
+	left: -35px;
+	top: -30px;
+}
+
+#page-about .reviews__total {
+	height: 290px;
+}
+
+.about-reviews {
+	width: 670px;
+}
+
+.about-reviews .owl-stage-outer {
+		height: 390px;
+}
+
+.about-reviews .owl-nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 105%;
+	top: 142px;
+	left: -2.5%;
+}
+
+.about-reviews .owl-nav button:focus {
+	outline: none;
+}
+
+.about-reviews .owl-nav .owl-prev:hover, .about-reviews .owl-nav .owl-next:hover {
+	background: none;
+}
+
+
+/* Отдельная статья */
+
+
+#page-single p {
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.single__title {
+	font-size: 33px !important;
+	line-height: 1.1em !important;
+	font-weight: 500;
+}
+
+.single__photo {
+    width: 100%;
+    height: 285px;
+    border-radius: 3px;
+}
+
+.single span.gray, .single-sidebar__item .articles__item-gray_name p.gray {
+	font-size: 12px !important;
+}
+
+#page-single .news__item p {
+	font-size: 14px;
+	line-height: 5px;
+}
+
+.single div.mt-4.d-flex img {
+	width: auto;
+	max-height: 12px
+}
+
+.single__textarea {
+	margin-top: 70px;
+	margin-bottom: 55px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #DADADA;
+	border-radius: 3px;
+}
+
+.single__textarea textarea {
+	border: none;
+	font-size: 16px;
+	width: 100%;
+	font-weight: 300;
+}
+
+.single__textarea textarea:focus {
+	outline: none;
+}
+
+.single__textarea button {
+	width: 140px;
+	height: 40px;
+	border-radius: 3px;
+	margin-left: auto;
+	display: block;
+	line-height: 27px;
+}
+
+.single-sidebar__item {
+	height: auto;
+	/* padding-bottom: 50px; */
+	margin-bottom: 20px;
+}
+
+.single-sidebar__item.articles__item-gray {
+	padding-bottom: 50px;
+}
+
+
+.comment__title_photo {
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+}
+
+.comment {
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.comment p {
+	margin-left: 60px;
+	font-size: 14px !important;
+}
+
+.comment a {
+	font-size: 14px;
+	color: #3285CA;
+	text-decoration: underline;
+	margin-left: 60px;
+	margin-right: 25px;
+}
+
+.comment button {
+	padding: 0;
+}
+
+.comment button:focus {
+	outline: none;
+}
+
+.comment button img {
+	height: 12px;
+	width: auto;
+}
+
+.comment div.d-flex.mt-2 span {
+	margin: 0 7px;
+	color: #3285CA;
+	font-size: 12px !important;
+}
+
+.single .btn2-1 {
+	font-size: 14px;
+	width: 170px;
+	height: 40px;
+	line-height: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px){
+	.mobile_menu_container{
+		width: 240px;
+	}
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	
+	.header {
+		display: none;
+	}
+	
+	.mobile-menu {
+		display: block;
+	}
+
+	.reviews__total {
+	    width: 340px;
+	}
+
+	.reviews__block {
+	    width: 600px;
+	    height: 295px;
+	}
+
+	.footer img {
+		width: 100%
+	}
+
+	/* Страница списка ломбардов */
+	
+	.list-lombards__search input {
+		width: 300px;
+	}
+
+	.list-lombards__search_input {
+		width: 180px;
+	}
+
+	.reviews-lombards__slider .owl-stage-outer {
+	    height: 285px;
+	}
+
+	/* Страница "Контакты" */
+
+	.contact__block	{
+		width: 46%;
+	}
+
+	.contact iframe {
+		width: 54% !important;
+	}
+
+	/* Страница "Статьи" */
+
+	.news__main-title {
+		font-size: 25px;
+	}
+	
+	/* Страница "О нас" */
+	
+	.about-reviews {
+		width: 670px;
+	}
+
+	.about-reviews .owl-nav {
+		width: 96%;
+	}
+
+
+}
+
+@media screen and (max-width: 992px) {
+ 	
+ 	body {
+ 		font-size: 16px;
+ 	}
+
+ 	
+
+ 	h4 {
+		font-size: 18px;
+	}
+	
+ 	.pawnshop {
+		background: url(../img/page-lombard.jpg) no-repeat right top;
+	}
+
+	.pawnshop .btn1-1 {
+		margin-left: 0 !important;
+	}
+
+	.pawnshop .btn1-1, .pawnshop .btn2-1 {
+		margin-top: 20px;
+	}
+
+	.pawnshop__block {
+		font-size: 14px;
+	}
+
+	.branches iframe {
+		margin-bottom: 0;
+		width: 100%;
+	}
+
+	.branches__block {
+		height: auto;
+		width: 100%;
+		position: inherit;
+		top: 0px;
+		margin-bottom: 70px;
+	}
+	
+	.branches__slider .owl-stage-outer {
+		width: 100%;
+	}
+
+	.branches__slider .owl-nav {
+		display: none;
+	}
+
+	.reviews__total {
+		position: inherit;
+		margin-top: 50px;
+		width: 100%;
+	}
+
+	.reviews__block  {
+		width: 100%;
+		height: auto;
+	}
+
+	.reviews__block_first {
+		margin-top: 18px;
+	}
+
+	.reviews__add {
+		margin-left: 48%;
+	}
+
+	.footer img {
+	    width: 80%;
+	}
+
+	.footer div.text-right {
+		text-align: center !important;
+		margin-top: 30px;
+	}
+
+
+	/* Страница списка ломбардов */
+
+	.lombards {
+		background: url(../images/bg-lombards.jpg) no-repeat center top;
+	}
+
+	.lombards h3 {
+		width: 84%;
+	}
+
+	.lombards__block {
+		margin-left: 0 !important;
+		margin-top: 70px;
+	}
+
+	.list-lombards__search  {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	
+	.list-lombards__search input, .list-lombards__search_input, .list-lombards button {
+		width: 100%;
+		height: 40px;
+		text-align: center;
+	}
+
+	.list-lombards button.btn2 {
+		margin-top: 7px;
+	}
+
+
+	.list-lombards .dropdown-toggle {
+		border-left: none;
+		border-top: 1px solid #EBEBEB;
+		text-align: center;
+	}
+
+	.dropdown-menu {
+		width: 100%;
+		text-align: center;
+	}
+
+	.list-lombards__views {
+    	margin-right: 0px;
+    }
+
+    /* Страница "Контакты" */
+
+    .free-consultation__secondary-title, .free-consultation__form, .free-consultation p.gray {
+    	width: 100%;
+    }
+
+	/* Страница "Статьи" */
+
+    .header-aticles__search input {
+		width: 260px;
+	}
+
+	/* Страница "О нас" */
+
+	.about__btns {
+		padding-top: 0 !important;
+	}
+
+	.about-reviews {
+		width: 100%;
+	}
+
+	.about-reviews .owl-nav {
+	    width: 106%;
+	}
+
+	/* Отдельная статья */
+	
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+	
+	h1 {
+
+	}
+
+	h2 {
+		font-size: 30px;
+		font-weight: 500;
+
+	}
+
+	h3 {
+		font-size: 26px;
+		font-weight: 500;
+	}
+
+	.pawnshop__info {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.pawnshop__block {
+		width: 100%;
+	}
+
+	.pawnshop__block h4 {
+		margin-top: 20px;
+		margin-bottom: 0px !important;
+	}
+
+	.pawnshop__block p {
+	    margin-top: 7px;
+	}
+
+	.branches iframe {
+		height: 280px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer img {
+	    width: 180px;
+	    margin-bottom: 40px;
+	}
+
+	.footer ul li {
+		margin-bottom: 10px !important;
+	} 
+
+	.mobile-menu-header {
+		padding: 21px 15px
+	}
+
+	/* Страница списка ломбардов */
+	
+	.lombards h3 {
+		width: 100%;
+	}
+
+	.reviews-lombards__slider .owl-nav {
+		display: none;
+	}
+
+	.list-lombards__row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.list-lombards__row div {
+		width: 100%;
+	}
+
+	.list-lombards__row.dn {
+		display: none !important;
+	}
+
+	.list-lombards__row img {
+		margin-bottom: 20px;
+	}
+
+	.list-lombards__row p {
+		margin-bottom: 10px;
+	}
+
+	/* Страница "Контакты" */
+
+
+
+	/* Страница "Статьи" */
+
+	.header-aticles__search  {
+		text-align: center;
+	}
+
+    .header-aticles__search input {
+		width: 98%;
+		margin-top: 20px
+	}
+
+	/* Страница "О нас" */
+	
+	.about {
+		background: url(../images/bg-about.jpg) no-repeat center top;
+	}
+	
+	.about p {
+	    width: 100%;
+	}
+
+	.about-add__desc p {
+	    font-size: 16px;
+	}
+
+	.about-add__desc {
+		padding: 25px 25px 70px;
+	}
+} 
+
+@media screen and (max-width: 576px) {
+
+	h5 {
+	    font-size: 15px;
+	}
+
+	.page-nav {
+	    font-size: 14px;
+	    margin-bottom: 36px;
+	}
+
+	.list-lombards__btn-map {
+		margin-right: auto;
+		margin-left: 0;
+		margin: 20px auto;
+	}
+
+	/* Страница списка ломбардов */
+
+	.lombards__text {
+		width: 100%;
+	}
+
+	/* Страница "Контакты" */
+
+	.contact .row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.contact__block, .contact iframe {
+		width: 100% !important;
+	}
+
+	.free-consultation__form {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.free-consultation__form input, .free-consultation__form .btn2 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.free-consultation__form .btn2 {
+		margin-top: 10px;
+	}
+	
+	/* Страница "Статьи" */
+
+	.news__item-2 {
+	    height: 75px;
+	}
+
+	.articles__item {
+		max-width: 300px;
+		margin: 0 auto;
+
+	}
+
+	.important-quet__img {
+	    height: 250px;
+	} 
+
+	/* Страница "О нас" */
+
+	.about-reviews .owl-nav {
+		display: none;
+	}
+
+@media screen and (max-width: 400px) {
+	.pawnshop .row div {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.pawnshop .row div {
+		text-align: center;
+	}
+
+	.pawnshop .row div img {
+		margin: 25px auto 25px auto !important;
+		width: max-content;
+	}
+
+	.pawnshop .btn2-1 {
+		margin-left: 0 !important;
+	}
+
+	.btn1-1, .btn2-1 {
+		width: 100%;
+	}
+
+	/* Страница списка ломбардов */
+
+	.lombards__block {
+		width: 100%;
+		height: auto;
+	}
+
+	.lombards__btns {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.lombards__btns .btn2-1 {
+		margin-left: 0 !important;
+		margin-top: 12px;
+	}
+
+	/* Страница "Контакты" */
+
+	.free-consultation__form  {
+		padding: 40px;
+	}
+	
+	/* Страница "О нас" */
+
+	.about__btns {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.about {
+		padding-bottom: 70px;
+	}
+
+	.about__btns .btn2-1 {
+		margin-left: 0px !important;
+		margin-top: 12px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+	/* Страница "Статьи" */
+	.header-aticles .row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.header-aticles .header__menu {
+		float: left;
+		margin-top: 15px;
+	}
+
+	.header-aticles .header__menu li {
+		margin-left: 0;
+		margin-right: 40px;
+	}
+
+
+}

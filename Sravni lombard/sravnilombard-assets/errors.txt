@@ -1,0 +1,20 @@
+[2020-5-28 17:35:38] layer "point.png копия": Expected end of input but "\u043A" found.
+[2020-5-28 17:35:38] layer "Никаких коллекторов, штрафов  и пени. Если не погасить кредит, ": Expected end of input but "," found.
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "+7 (495) 777-77-77": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-5-28 17:35:38] layer "+7 (495) 777-77-77": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "+7 (495) 255-50-50": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-5-28 17:35:38] layer "info@golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "+7 (495) 255-50-50": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-5-28 17:35:38] layer "+7 (495) 777-77-77": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-5-28 17:35:38] layer "+7 (495) 777-77-77": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
+[2020-5-28 17:35:38] layer "golfstreamcredit.ru": Unsupported extension: ru
